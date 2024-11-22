@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistika Sayti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Logistika Xizmatlari</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#services">Xizmatlar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bosh Sahifa</h2>
+        <p>Bizning logistik xizmatlarimiz orqali yukingizni tez va xavfsiz yetkazib beramiz.</p>
+    </section>
+
+    <section id="services">
+        <h2>Xizmatlar</h2>
+        <div class="service-card">
+            <h3>Yuk Qidirish</h3>
+            <p>Yuk qidirish uchun maxsus qidiruv tizimimizdan foydalaning.</p>
+            <button onclick="searchLoad()">Yuk Qidirish</button>
+        </div>
+        <div class="service-card">
+            <h3>Yuk Ma'lumotlari</h3>
+            <p>Yuk ma'lumotlarini bu yerdan ko'rishingiz mumkin.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Aloqa</h2>
+        <form>
+            <label for="name">Ismingiz:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Xabar:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Yuborish</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Logistika Sayti. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+]
